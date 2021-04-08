@@ -1,0 +1,2 @@
+# m h  dom mon dow   command
+*/30 * * * * php /path/to/saveCurrentWeather.php

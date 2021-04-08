@@ -1,0 +1,5 @@
+# m h  dom mon dow   command
+#I want a reading every 10 minutes.  chose *1 and *3 for no particular reason
+1,11,21,31,41,51 * * * * python3 /home/pi/bme280_garage.py
+3,13,23,33,43,53 * * * * /home/pi/rtlamr.sh
+
